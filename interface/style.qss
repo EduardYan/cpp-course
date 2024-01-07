@@ -1,0 +1,38 @@
+QListWidget {
+    background-color: #f5f5f5;
+}
+
+QListWidget::item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+QListWidget::item:selected {
+    background-color: #5850ec;
+    color: white;
+}
+
+
+QLineEdit {
+    padding: 5px;
+    font-size: 14px;
+}
+
+QPushButton {
+    padding: 5px;
+    font-size: 14px;
+    background-color: #5850ec;
+    color: white;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: #45a049;
+}
+
+QPushButton:pressed {
+    background-color: #4CAF50;
+}
+
