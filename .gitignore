@@ -1,6 +1,7 @@
-.brakpoints
 .ccls-cache/
 .cache/
 replit.nix
 .replit
 test.cpp
+test
+bin/

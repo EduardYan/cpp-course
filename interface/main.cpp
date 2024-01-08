@@ -167,7 +167,7 @@ int main(int argc, char *argv[])
 {
   QApplication app(argc, argv);
 
-  QFontDatabase::addApplicationFont("/home/dan/Downloads/cpp-course/interface/HackNerdFontMono-Regular.ttf");
+  QFontDatabase::addApplicationFont("./HackNerdFontMono-Regular.ttf");
   QFont customFont("HackNerdFontMono", 12);
   app.setFont(customFont);
 

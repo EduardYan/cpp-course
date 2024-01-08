@@ -1,3 +1,0 @@
-qmake -project
-qmake taskmanager.pro
-make

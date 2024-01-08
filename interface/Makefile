@@ -37,7 +37,7 @@ MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
 DISTNAME      = taskmanager1.0.0
-DISTDIR = /home/dan/Downloads/cpp-course/interface/.tmp/taskmanager1.0.0
+DISTDIR = /home/dan/Downloads/projects/cpp-course/interface/.tmp/taskmanager1.0.0
 LINK          = g++
 LFLAGS        = -Wl,-O1 -pipe -O2 -flto=4 -fno-fat-lto-objects -fuse-linker-plugin -fPIC
 LIBS          = $(SUBLIBS) /usr/lib/libQt5Widgets.so /usr/lib/libQt5Gui.so /usr/lib/libQt5Core.so -lGL -lpthread   
@@ -375,7 +375,7 @@ compiler_moc_source_clean:
 main.moc: main.cpp \
 		moc_predefs.h \
 		/usr/bin/moc
-	/usr/bin/moc $(DEFINES) --include /home/dan/Downloads/cpp-course/interface/moc_predefs.h -I/usr/lib/qt/mkspecs/linux-g++ -I/home/dan/Downloads/cpp-course/interface -I/usr/include/qt -I/usr/include/qt/QtWidgets -I/usr/include/qt/QtGui -I/usr/include/qt/QtCore -I/usr/include/c++/13.2.1 -I/usr/include/c++/13.2.1/x86_64-pc-linux-gnu -I/usr/include/c++/13.2.1/backward -I/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include -I/usr/local/include -I/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed -I/usr/include main.cpp -o main.moc
+	/usr/bin/moc $(DEFINES) --include /home/dan/Downloads/projects/cpp-course/interface/moc_predefs.h -I/usr/lib/qt/mkspecs/linux-g++ -I/home/dan/Downloads/projects/cpp-course/interface -I/usr/include/qt -I/usr/include/qt/QtWidgets -I/usr/include/qt/QtGui -I/usr/include/qt/QtCore -I/usr/include/c++/13.2.1 -I/usr/include/c++/13.2.1/x86_64-pc-linux-gnu -I/usr/include/c++/13.2.1/backward -I/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include -I/usr/local/include -I/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed -I/usr/include main.cpp -o main.moc
 
 compiler_uic_make_all:
 compiler_uic_clean:

@@ -1,0 +1,9 @@
+{
+  "editor.fontFamily": "'Cascadia Code PL' , 'Hack Nerd Font', monospace",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.formatOnSave": true,
+  "workbench.preferredLightColorTheme": "Default Dark+",
+  "vscodeGoogleTranslate.preferredLanguage": "English"
+}
