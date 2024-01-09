@@ -5,5 +5,9 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.formatOnSave": true,
   "workbench.preferredLightColorTheme": "Default Dark+",
-  "vscodeGoogleTranslate.preferredLanguage": "English"
+  "vscodeGoogleTranslate.preferredLanguage": "English",
+  "files.associations": {
+    "string": "cpp",
+    "ostream": "cpp"
+  }
 }
