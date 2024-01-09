@@ -8,6 +8,7 @@
   "vscodeGoogleTranslate.preferredLanguage": "English",
   "files.associations": {
     "string": "cpp",
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "iostream": "cpp"
   }
 }

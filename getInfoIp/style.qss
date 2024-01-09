@@ -1,0 +1,58 @@
+/* style.qss */
+
+/* Estilo general */
+QWidget {
+    background-color: #242424;
+    color: #ffffff;
+}
+
+/* Estilo para QLabel */
+QLabel {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Estilo para QLineEdit */
+QLineEdit {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+}
+
+/* Estilo para QPushButton */
+QPushButton {
+    padding: 8px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007acc;
+    border: 1px solid #007acc;
+    border-radius: 5px;
+}
+
+QPushButton:hover {
+    background-color: #005b91;
+    border: 1px solid #005b91;
+}
+
+/* Estilo para el resultado */
+QLabel#labelResultado {
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 20px;
+    border: 1px solid #007acc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #101010;
+}
+
+#btnCerrar {
+    color: white;
+    background-color: red;
+    border: 1px solid darkred;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
