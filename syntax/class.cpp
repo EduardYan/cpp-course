@@ -59,8 +59,81 @@ public:
   }
 };
 
+class Student
+{
+public:
+  string name;
+  int age;
+  string course;
+  double note;
+
+  Student(string name_student, int age_student, string course_student, double note_student)
+  {
+    name = name_student;
+    age = age_student;
+    setCourse(course_student);
+    setNote(note_student);
+  }
+
+  void setCourse(string course_student)
+  {
+    const string options[] = {"Math", "Languaje", "Science", "Fisics", "English", "Programming", "Marketing", "Cook"};
+
+    if (course_student == options[0] || course_student == options[1] || course_student == options[2] || course_student == options[3] || course_student == options[4] || course_student == options[5] || course_student == options[6] || course_student == options[7])
+    {
+      course = course_student;
+    }
+    else
+    {
+      course = "Incorrect course";
+    }
+  }
+
+  void setNote(double note_course)
+  {
+    if (note_course <= 10.0 && note_course >= 0.0)
+    {
+      note = note_course;
+    }
+    else
+    {
+      note = 0.0;
+    }
+  }
+
+  bool isAprovate()
+  {
+    if (note >= 8.0)
+    {
+      return true;
+    }
+    else
+    {
+      return false;
+    }
+  }
+};
+
+const Student students[] = {
+    Student("Oscar", 15, "Math", 9.8),
+    Student("Pablo", 16, "Science", 7.6),
+    Student("Karla", 15, "Fisics", 5.8),
+    Student("Pedro", 19, "Cook", 0.0)};
+
 int main()
 {
+
+  /*
+  for (int i = 0; i < size(students); i++)
+    {
+      cout << "Name => " << students[i].name << endl;
+      cout << "Age => " << students[i].age << endl;
+      cout << "Course => " << students[i].course << endl;
+      cout << "Note => " << students[i].note << "\n"
+           << endl;
+    }
+  */
+
   // cout << person1.name << person1.age << person1.hobbie << endl;
 
   Person person1("Ana", 12, "Swin", "Math");

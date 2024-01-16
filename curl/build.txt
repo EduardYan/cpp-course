@@ -1,0 +1,1 @@
+g++ getRequest.cpp -o bin/getRequest -lcurl
